@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Digital Library",
+    "slug": "digital-library",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0D0F14"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.digitallibrary"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0D0F14"
+      },
+      "package": "com.yourname.digitallibrary"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    }
+  }
+}
