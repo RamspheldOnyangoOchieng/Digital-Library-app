@@ -3,6 +3,9 @@ node_modules/
 package-lock.json
 yarn.lock
 
+# Assets — uploaded manually in Expo Snack, do not track in git
+assets/
+
 # Expo
 .expo/
 dist/
