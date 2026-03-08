@@ -4,11 +4,31 @@
     "name": "Digital Library",
     "slug": "digital-library",
     "version": "2.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D0F14"
+    },
     "ios": {
-      "bundleIdentifier": "com.yourname.digitallibrary"
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.digitallibrary",
+      "icon": "./assets/icon.png"
     },
     "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0D0F14"
+      },
       "package": "com.yourname.digitallibrary"
-    }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ]
   }
 }
